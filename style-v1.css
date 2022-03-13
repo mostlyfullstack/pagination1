@@ -1,0 +1,30 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section{display:block}a,hr{padding:0}abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}ins,mark{background-color:#ff9;color:#000}body{line-height:1}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;font-size:100%;vertical-align:baseline;background:0 0}ins{text-decoration:none}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}
+a{text-decoration:none;}
+
+.main-form{width:300px;}
+.success-msg{text-align:center;margin-bottom:10px;}
+.main-form input{display:block;width:100%;}
+.main-form input[type=text]{margin-bottom:10px;padding:10px;}
+.main-form input[type=submit]{text-align:center;padding:10px;cursor:pointer;}
+
+.tempnum{position:fixed;top:10px;left:10px;font-size:15px;padding:5px 10px;color:#fff;background:#265ab9;}
+
+.container{width:60%;margin:40px;}
+table{width:100%;}
+th{padding:10px 5px;text-align:left;}
+td{padding:10px;border-bottom:1px solid #eee;}
+
+
+.right-fixed{position:fixed;top:20px;right:10px;padding:15px;border-left:1px solid #eee;}
+.right-fixed p{margin-bottom:10px;}
+
+.page-note{position:fixed;bottom:10px;right:10px;color:#fff;background:#ba691a;padding:10px;width:300px;font-size:14px;}
+.page-note p{margin-bottom:10px;}
+
+.pagination-container{margin-bottom:10px;}
+.pagination{list-style-type:none;padding:0;margin:0;display:flex;flex-flow:row wrap;align-items:center;}
+.pagination li{margin-right:5px;}
+.pagination li:last-child{margin-right:0;}
+.pagination li a{display:block;color:#fff;background:#5573bb;padding:6px 10px;border-radius:3px;}
+.pagination .current-page a{background:#a3aaba;}
